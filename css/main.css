@@ -22,7 +22,15 @@ body {
 
 	overflow: hidden;
 }
-
+.telegram-icon {
+  width: 40px;
+  /* margin-top: 50px; */
+  z-index: 1;
+  position: relative;
+	display: flex;
+  flex-direction: column;
+  transform: translate(-10%, +50%);
+}
 /* Темный оверлей */
 body::after {
 	content: '';
