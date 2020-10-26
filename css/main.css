@@ -29,7 +29,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  transform: translate(-10%, +50%);
+  transform: translate(-10%, +500%);
 }
 /* Темный оверлей */
 body::after {
@@ -95,7 +95,7 @@ body::after {
   }
 
   .year {
-    display: none;
+    font-size: 35px;
   }
 
   .countdown {
